@@ -1,16 +1,15 @@
 import os
-import json
-import openai
-from langchain.chains import RetrievalQA
-from langchain_openai import ChatOpenAI
-from langchain_openai import OpenAIEmbeddings
-from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from openai import OpenAI
 import tiktoken
 from langchain_community.document_loaders import TextLoader
-from langchain_chroma import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_openai import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
+from langchain_chroma import Chroma
+from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
+
 
 if load_dotenv('.env'):
    # for local development
@@ -139,7 +138,7 @@ def process_user_message(user_message):
 
 # Run chain
     qa_chain = RetrievalQA.from_chain_type(
-        ChatOpenAI(model='gpt-4o-mini'),
+        llm = llm,
         retriever=vectordb.as_retriever(search_type="similarity_score_threshold",
                                         # There is no universal threshold, it depends on the use case
                                         search_kwargs={'score_threshold': 0.20}),
@@ -150,6 +149,3 @@ def process_user_message(user_message):
     llm_response = qa_chain.invoke(user_message)
     return llm_response['result']
 
-
-response = process_user_message("What are some genral tips for some general tips for purchaisng of electrical applicances?")
-print(response)
