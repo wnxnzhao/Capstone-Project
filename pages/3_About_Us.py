@@ -17,17 +17,17 @@ Furthermore, please be aware that the LLM may generate inaccurate or incorrect i
 Always consult with qualified professionals for accurate and personalized advice.
 
 """)
-st.image("https://www.climate-friendly-households.gov.sg/images/main logo.jpg")
+st.image("https://www.climate-friendly-households.gov.sg/images/main logo.jpg", width = 300)
 
 st.header("Project Scope")
 st.write("Singapore is working towards reducing its greenhouse gas emissions by using less carbon-intensive fuels, and by improving energy efficiency.\
          In order to reduce its greenhouse gas emissions, Singapore has switched from carbon-intensive fuel oil to natural gas for electricity generation.\
          However, there are limits to how much further Singapore can reduce its emissions. Therefore, improving energy efficiency remains a key focus for Singapore.\
-         To achieve this goal, it requires a collective support and effort from all sectors of Singapore, including households.\
-         \
-         To foster a climate-friendly mindset among households, the Climate Friendly Households Programme (CFHP) was launched in November 2020 and later enhanced from 15 April 2024 to include all HDB households.\
+         To achieve this goal, it requires a collective support and effort from all sectors of Singapore, including households.")
+
+st.write("To foster a climate-friendly mindset among households, the Climate Friendly Households Programme (CFHP) was launched in November 2020 and later enhanced from 15 April 2024 to include all HDB households.\
          Recently, the CFHP was again expanded in Apr 2025 to Singapore Citizen registered and residing at a private residential property.\
-         Each eligible household is entitled to one set of $300 vouchers and one set of $100 vouchers.\
+         Each eligible household is entitled to one set of 300 SGD vouchers and one set of 100 SGD vouchers.\
          The Climate Vouchers can be used to purchase 10 types of energy- and water-efficient household products.\
          By switching to more efficient appliances and fittings, households can reduce their energy and/or water consumption, lower their utility bills, reduce greenhouse gas emissions, and play their part in slowing down climate change.")
 
@@ -44,14 +44,13 @@ with col2:
        st.link_button("Climate Friendly Households Programme Webpage", "https://www.climate-friendly-households.gov.sg/")
 
 st.header("Features")
-st.write("This app has two main features: \
-            1) WattSaver: Your Friendly Energy Advisor - An LLM-based AI Assistant that can respond to users' queries related to energy saving and advice on how to improve energy efficiency in their households by providing useful tips,\
-            2) Climate Vouchers Eligibility Checker - An LLM-based AI Assistant that can check if a product is eligible for purchase with the Climate Vouchers under the Climate Friendly Households Programme.")
+st.write("This app has two main features:")
+st.write("     1) WattSaver: Your Friendly Energy Advisor - An LLM-based AI Assistant that can respond to users' queries related to energy saving and advice on how to improve energy efficiency in their households by providing useful tips,")
+st.write("     2) Climate Vouchers Eligibility Checker - An LLM-based AI Assistant that can check if a product is eligible for purchase with the Climate Vouchers under the Climate Friendly Households Programme.")
 
 st.subheader("How to Use")
-st.write("The steps to using either features of this app are straightforward and simple:\
-            1. Enter your prompt in the text area.\
-            2. Click the 'Submit' button.\
-            3. The app will generate a text completion based on your prompt.")
-
+st.write("The steps to using either features of this app are straightforward and simple:")
+st.write("1. Enter your prompt in the text area.")
+st.write("2. Click the 'Submit' button.")
+st.write("3. The app will generate a text completion based on your prompt.")
 

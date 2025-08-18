@@ -1,0 +1,42 @@
+{
+    "Refrigerator": {
+        "Number of Ticks": [3, 4],
+        "Remarks": ""
+    },
+    "Air Conditioner": {
+        "Number of Ticks": [5],
+        "Remarks": ""
+    },
+    "Direct Current Fan": {
+        "Number of Ticks": [],
+        "Remarks": "Direct Current (DC) fans use DC motors which are more energy efficient compared to Alternating Current (AC) motors. They are typically labelled as 'DC' by manufacturers and retailers. They currently do not carry any energy label. Stand fans, ceiling fans, and table fans that use DC motors are eligible for purchase with the Climate Vouchers. DC fans with non-LED lights are not eligible."
+    },
+    "LED Light": {
+        "Number of Ticks": [2, 3, 4],
+        "Remarks": "LED lights with the old round energy label are not eligible."
+    },
+    "Heat Pump Water Heater": {
+        "Number of Ticks": [],
+        "Remarks": "Heat Pump Water Heaters (HPWH) use the heat from the surrounding air to heat water for your shower. In comparison, instantaneous and storage water heaters use electricity or gas to heat water. This makes HPWHs more energy efficient. They currently do not carry any energy label."
+    },
+    "Washing Machine": {
+        "Number of Ticks": [4],
+        "Remarks": ""
+    },
+    "Water Closet": {
+        "Number of Ticks": [3],
+        "Remarks": ""
+    },
+    "Sink/Bib tap and mixer": {
+        "Number of Ticks": [3],
+        "Remarks": "The primary function of a bib tap is to provide a connection point for hoses in outdoor and/or utility settings, such as, but not limited to, the gardening and laundry area."
+    },
+    "Basin tap and mixer": {
+        "Number of Ticks": [3],
+        "Remarks": ""
+    },
+    "Shower Fittings": {
+        "Number of Ticks": [3],
+        "Remarks": ""
+    }
+}
