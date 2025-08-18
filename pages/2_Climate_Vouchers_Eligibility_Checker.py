@@ -6,8 +6,6 @@ import openai
 from dotenv import load_dotenv
 from openai import OpenAI
 import tiktoken
-import random  
-import hmac
 
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
@@ -19,29 +17,6 @@ st.set_page_config(
 st.title("Climate Vouchers Eligibility Checker")
 st.image("https://www.climate-friendly-households.gov.sg/images/main logo.jpg", width = 300)
 
-def check_password():  
-    """Returns `True` if the user had the correct password."""  
-    def password_entered():  
-        """Checks whether a password entered by the user is correct."""  
-        if hmac.compare_digest(st.session_state["password"], st.secrets["password"]):  
-            st.session_state["password_correct"] = True  
-            del st.session_state["password"]  # Don't store the password.  
-        else:  
-            st.session_state["password_correct"] = False  
-    # Return True if the passward is validated.  
-    if st.session_state.get("password_correct", False):  
-        return True  
-    # Show input for password.  
-    st.text_input(  
-        "Password", type="password", on_change=password_entered, key="password"  
-    )  
-    if "password_correct" in st.session_state:  
-        st.error("😕 Password incorrect")  
-    return False
-
-# Check if the password is correct.  
-if not check_password():  
-    st.stop()
 
 st.header("Are you eligible for the Climate Vouchers?")
 st.caption("Select the applicable option for all 4 buttons below to check your eligibility for the Climate Vouchers under the Climate Friendly Households Programme.")
