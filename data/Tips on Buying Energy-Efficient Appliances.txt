@@ -1,0 +1,64 @@
+<h1>Title: Tips on Buying Energy-Efficient Appliances</h1>
+
+Don’t end up with energy guzzlers when buying a new appliance or replacing an appliance in your home. The following tips will help you choose energy efficient appliances for your home and reduce your electricity bills.
+
+---
+
+# Air-Conditioner
+- Choose the right cooling capacity for your air-conditioner. Oversized or undersized air-conditioners operate inefficiently.
+- Choose an energy efficient air-conditioner with more ticks on the energy label. A 2-tick model will cost you about $303 more in electricity bills a year* as compared to using a 5-tick air-conditioner.
+- Choose models with lower life cycle costs (LCC). When buying an air-conditioner, it is useful to look at the life cycle cost, in addition to the purchase price. The energy cost of an air-conditioner over its lifespan can be many times of its purchase price. Life Cycle Cost = Purchase Price + Estimated Electricity Cost over 7 years Lifespan (Annual Energy Cost × 7). *Based on electricity cost of $0.299 per kWh of electricity (before GST), assuming a multi-split 7.5kW cooling capacity air-conditioner used 8 hours daily
+
+---
+
+# Water Heater
+When choosing a water heater for your new home or during a renovation, consider the following tips:
+- Choose an instantaneous water heater over a storage water heater as it is more energy efficient. If you prefer a storage water heater, choose a capacity that meets your needs. 
+- If your apartment has access to the gas network, consider installing a gas water heater over an electric storage water heater.
+- If space and budget permit, consider an electric heat pump water heater. It is more energy efficient than an electric instantaneous and storage water heater as less electricity is used to transfer heat from the ambient air to heat water instead of generating heat directly.
+- If you have access to roof space (e.g. living in landed property), consider installing a solar thermal water heater as an environmentally friendly option. A family of four using an electric heat pump water heater may reduce energy costs compared to an electric instantaneous and storage water heater. 
+- Notes to Tips:
+	- Assumed electricity tariff of $0.299 per kWh (before GST) and gas tariff of $0.247 per kWh.
+	- Savings are computed based on a water heater study commissioned by NEA in 2019.
+	- Assumed water heater lifespan of 10 years.
+	- The energy cost and performance of solar thermal water heater systems depend on weather conditions, insulation of storage tanks, and how they are installed and operated. 
+
+---
+
+# Refrigerator
+- Buy the smallest model refrigerator that meets your needs. Generally, larger models use more energy to operate.
+- Consider whether additional features, such as automatic icemakers and through-the-door dispensers are needed as they increase energy use.
+- Choose an energy efficient refrigerator with more ticks on the energy label. A 2-tick refrigerator may cost you about $59 more in electricity bills a year* as compared to a 3-tick model.
+- Choose models with lower life cycle costs (LCC). When buying a refrigerator, it is useful to look at the life cycle cost, in addition to the purchase price. Life Cycle Cost = Purchase Cost + Estimated Electricity Cost over 10 years Lifespan (Annual Energy Cost × 10). *Based on electricity cost of $0.299 per kWh of electricity (before GST)
+
+---
+
+# Clothes Dryer
+Consider the need for a clothes dryer as air-drying your clothes is completely free! If you really need one, consider the following tips:
+- Buy a clothes dryer of suitable capacity that meets your needs. The capacity of the clothes dryer should not be larger than that of the washing machine.
+- Select a model with energy-saving features such as a moisture sensor that turns off the dryer when clothes are dried.
+- Choose an energy efficient clothes dryer with more ticks on the energy label. A 2-tick clothes dryer may cost you about $56 more in electricity bills a year* as compared to using a 5-tick model. Life Cycle Cost = Purchase Price + Estimated Electricity Cost over 10 years Lifespan (Annual Energy Cost × 10). *Based on electricity cost of $0.299 per kWh of electricity (before GST), assuming a dryer of 6kg capacity, used 3 times per week
+
+---
+
+# Lamps
+-Choose energy efficient lamps such as LED bulbs. Switch from a 12W CFL light bulb to a 9W LED bulb for lesser energy use and more savings! LED bulbs use up to 25% less electricity than CFL light bulbs to produce the same amount of light and can last about 2.5 times longer.
+
+---
+
+# Television
+- Consider the need for larger TVs as they generally consume more energy.
+- Choose an energy efficient TV with more ticks on the energy label. A 3-tick model may cost you about $15 more a year* in electricity bills as compared to a 5-tick model. *Based on electricity cost of $0.299 per kWh of electricity (before GST), assuming a 32" TV used 5 hours daily
+
+---
+
+# Computer
+- Consider choosing computers with the ENERGY STAR label as they use 30%-65% less energy than computers without this designation, depending on usage.
+- Consider choosing a laptop rather than a desktop as it consumes less energy.  
+
+---
+
+# Cooking Appliance
+- Use thermal cooking pots and pressure cookers as they cut down the energy required for cooking.
+- Use a thermos flask instead of an electric air-pot to keep hot water hot. Electric air-pots can incur an additional electricity cost of about $288 a year*. *Based on electricity cst of $0.299 per kWh of electricity (before GST)
+
