@@ -149,3 +149,6 @@ def process_user_message(user_message):
     llm_response = qa_chain.invoke(user_message)
     return llm_response['result']
 
+
+response = process_user_message("What are some general tips for purchasing of electrical appliances?")
+print(response)
