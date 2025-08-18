@@ -118,8 +118,7 @@ vectordb = Chroma.from_documents(
     embedding = embeddings_model,
     collection_name = "naive_splitter", # one database can have multiple collections
     persist_directory = "./vector_db")
-# Load existing vector database
-# vectordb = Chroma(persist_directory = "./vector_db")
+
 
 def process_user_message(user_message):
     # Build prompt
@@ -135,6 +134,7 @@ def process_user_message(user_message):
     {context}
     Question: {question}
     Helpful Answer:"""
+
     QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
 
 # Run chain
@@ -147,7 +147,9 @@ def process_user_message(user_message):
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT}
     )
 
-    llm_response = qa_chain.invoke('What are some genral tips for some general tips for purchaisng of electrical applicances?')
+    llm_response = qa_chain.invoke(user_message)
     return llm_response['result']
 
 
+response = process_user_message("What are some genral tips for some general tips for purchaisng of electrical applicances?")
+print(response)
