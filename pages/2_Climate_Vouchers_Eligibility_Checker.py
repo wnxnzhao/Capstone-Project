@@ -62,6 +62,8 @@ if residential_status == "Permanent Resident":
             st.write("You are eligible for the 300 SGD Climate Vouchers.")
         elif claimed_status_300 == "Yes" and claimed_status_100 == "No":
             st.write("You are eligible for the 100 SGD Climate Vouchers.")
+        else:
+            st.write("You have claimed all of the Climate Vouchers!")
     else:
         st.write("You are not eligible for the Climate Vouchers.")
 
