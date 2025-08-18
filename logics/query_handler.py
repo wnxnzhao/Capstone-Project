@@ -113,14 +113,13 @@ embeddings_model = OpenAIEmbeddings(model='text-embedding-3-small')
 llm = ChatOpenAI(model='gpt-4o-mini', temperature=0, seed=42)
 
 # Create the vector database
-#vectordb = Chroma.from_documents(
-    #documents = splitted_documents,
-    #embedding = embeddings_model,
-    #collection_name = "naive_splitter", # one database can have multiple collections
-    #persist_directory = "./vector_db"
-#)
+vectordb = Chroma.from_documents(
+    documents = splitted_documents,
+    embedding = embeddings_model,
+    collection_name = "naive_splitter", # one database can have multiple collections
+    persist_directory = "./vector_db")
 # Load existing vector database
-vectordb = Chroma(persist_directory = "./vector_db")
+# vectordb = Chroma(persist_directory = "./vector_db")
 
 def process_user_message(user_message):
     # Build prompt
