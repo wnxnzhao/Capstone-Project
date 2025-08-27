@@ -1,3 +1,20 @@
+# VERY FIRST LINES of main.py (or the file Streamlit runs)
+import sys
+try:
+    # prefer the dbapi2 alias
+    from pysqlite3 import dbapi2 as sqlite3_replacement
+    sys.modules['sqlite3'] = sqlite3_replacement
+except Exception:
+    # fallback if named differently
+    try:
+        import pysqlite3 as p
+        sys.modules['sqlite3'] = p
+    except Exception:
+        # allow normal flow; you'll see the Chroma error if replacement failed
+        pass
+
+import streamlit as st
+import pandas as pd
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
